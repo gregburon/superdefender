@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SuperDefender - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~2\Owner\LOCALS~1\Temp\RSP81.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/SuperDefender.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Owner\My Documents\Game Development\SuperDefender\SuperDefender.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~2\Owner\LOCALS~1\Temp\RSP81.tmp" 
+Creating temporary file "C:\DOCUME~2\Owner\LOCALS~1\Temp\RSP82.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib winmm.lib ddraw.lib dsound.lib dinput.lib dxguid.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/SuperDefender.pdb" /machine:I386 /out:"Release/SuperDefender.exe" 
+".\Release\DirectDraw.obj"
+".\Release\DirectInput.obj"
+".\Release\GameMap.obj"
+".\Release\GameObject.obj"
+".\Release\GameRegion.obj"
+".\Release\GameTimer.obj"
+".\Release\SpaceShip.obj"
+".\Release\Sprite.obj"
+".\Release\SpriteManager.obj"
+".\Release\StdAfx.obj"
+".\Release\SuperDefender.obj"
+".\Release\ViewPort.obj"
+]
+Creating command line "link.exe @C:\DOCUME~2\Owner\LOCALS~1\Temp\RSP82.tmp"
+<h3>Output Window</h3>
+Compiling...
+SuperDefender.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+SuperDefender.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
